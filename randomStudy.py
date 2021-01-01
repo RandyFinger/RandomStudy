@@ -20,4 +20,5 @@ print(a)
 # Plot the array
 plt.plot(a)
 plt.ylabel('Random numbers')
+plt.axis([0, 10, 0, 10])
 plt.show()
