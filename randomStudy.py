@@ -2,7 +2,7 @@
 
 import pandas as pd
 import numpy as np
-import matplotlib as plot
+import matplotlib.pyplot as plt
 import random
 
 # Generate an array of random values. 1d array size = 10 
@@ -16,3 +16,8 @@ while i < a.size:
 
 # Print array a
 print(a)
+
+# Plot the array
+plt.plot(a)
+plt.ylabel('Random numbers')
+plt.show()
