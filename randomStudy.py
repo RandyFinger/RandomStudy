@@ -11,7 +11,7 @@ a = np.zeros((10), dtype=np.int16)
 # iterate through array and assign random values between 1 and 10
 i = 0
 while i < a.size:
-    a[i] = random.randint(1, 11)
+    a[i] = random.randint(1, 10)
     i += 1
 
 # Print array a
